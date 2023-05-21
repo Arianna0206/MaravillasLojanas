@@ -1,0 +1,635 @@
+*{
+	padding: 0;
+	margin: 0;
+    overflow-x: hidden;
+}
+
+/*---------------------------------------------*/
+/*               Contenido Main               */
+/*---------------------------------------------*/
+
+  .contenedor{
+    width: 100vw; 
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-top: 10px;
+    padding: 10px;
+    background-color: rgba(118, 174, 0, 0.91);
+    width: 100%;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .col-2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .col-2 img {
+    max-width: 11rem;
+    height: auto;
+  }
+  
+  .col-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card-title {
+    position: absolute;
+    width: 570px;
+    height: 116px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    color: #FFFFFF;
+    mix-blend-mode: hard-light;
+    margin-bottom: 10px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
+    overflow-x: hidden;
+  }
+  
+  .card-text {
+    position: absolute;
+    width: 587px;
+    height: 62px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.095em;
+    color: #FFFFFF;
+    mix-blend-mode: hard-light; 
+    margin-bottom: -100px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
+    overflow-x: hidden;
+  }
+  
+  .izquierda {
+    padding-right: 25rem;
+  }
+
+  .derecha {
+    padding-left: 25rem;
+  }
+
+/*---------------------------------------------*/
+/*         Contenido Barra Búsqueda            */
+/*---------------------------------------------*/
+
+  .fa {
+    font-size: 20px;
+    color: #666;
+    margin-right: 5px;
+    margin-right: 10px;
+  }
+
+  .busqueda{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgba(153, 204, 0, 0.32);
+  }
+  .microfono {
+    display: flex;
+    align-items: center;
+  }
+
+  .fa-microphone{
+    float: right;
+  }
+
+  .interna {
+    width: 1077.05px; 
+    background-color: rgba(217, 217, 217, 1);
+    border: 1px solid rgba(0, 0, 0, 0.87);
+  }
+  
+/*---------------------------------------------*/
+/*               Contenido Slider              */
+/*---------------------------------------------*/
+  .contenedor.imagen {
+    position: relative;
+  }
+  
+  .sliderPrincipal {
+    position: relative;
+  }
+  
+  .btn {
+    position: absolute;
+    top: 36px;
+    left: 47px;
+    background: rgba(243, 243, 240, 0.66);
+    backdrop-filter: blur(2px);
+    color: #ffffff;
+    border: none;
+    border-radius: 18px;
+    padding: 5px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    z-index: 2;
+    justify-content: center;
+  }
+  
+  .circulo {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(69, 68, 68, 1);
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 20px;
+  }
+  
+  .sliderPrincipal img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .texto {
+    font-family: 'Inter';
+    margin-top: 0.2rem;
+    color:#4B4B4B;
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    display: inline-block;
+  }
+
+  .card-nueva {
+    position: absolute;
+    border-radius: 18px;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+    background-color: rgba(153, 204, 0, 0.44);
+    box-sizing: border-box;
+    position: absolute;
+    width: 1246px;
+    height: 118px;
+    padding: 20px;
+    margin-bottom: 2rem;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .texto1 {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.29em;
+    color: #403F3F;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+    margin-top: 1rem; 
+    margin-left: 5rem; 
+  }
+
+  .btn-card {
+    width: 340px;
+    height: 52px;
+    background-color: rgba(102, 153, 0, 1);
+    border-radius: 18px;
+    border: none;
+    margin-top: 0.9rem;
+    cursor: pointer;
+  }
+
+  .texto2{
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+  }
+
+/*-------------------------------------------------*/
+/*  Contenido de tres botones con página interna   */
+/*-------------------------------------------------*/
+
+  .contenedor.imagen2 {
+    position: relative;
+    text-align: center;
+    height: 100%;
+    overflow: hidden;
+    margin-top: -0.7rem;
+  }
+  
+  .imagen {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .texto-superior {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.38em;
+    color: #000000;
+
+  }
+  
+  .botones {
+    position: absolute;
+    top: 13rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 0 8rem 0;
+    overflow: hidden;
+  }
+  
+  .boton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(164, 199, 241, 0.74);
+    backdrop-filter: blur(2px);
+    border-radius: 25px;
+    width: calc(33.33% - 10px);
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .boton img {
+    width: 50%;
+    height: auto;
+  }
+
+  .imagen3 img{
+    width: 30%;
+  }
+  
+  .texto-inferior-container {
+    width: 100%;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    transform: translateY(100%);
+  }
+  
+  .texto-inferior {
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.38em;
+    color: #000000;
+  }
+
+/*---------------------------------------------*/
+/*         Contenido tres imágenes             */
+/*---------------------------------------------*/
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(153, 204, 0, 1);
+    height: 30%;
+
+  }
+
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 1px;
+    padding: 2.5rem;
+  }
+
+  .imagen1 img{
+    margin-left: 2rem;
+  }
+
+/*---------------------------------------------*/
+/*         Contenido Footer - pie página       */
+/*---------------------------------------------*/
+  .column {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+  }
+
+  .column img {
+    width: 45%;
+    height: auto;
+  }
+
+  .column p {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    color: #1E1E1E;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 6rem 7rem;
+  }
+
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .texto3{
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    color: #636363;
+  }
+
+  .imagen4{
+    margin-left: 9rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .contenedor-footer{
+    background-color: rgba(118, 174, 0, 1);
+  }
+
+  .column.cuadro1 {
+    padding-top: 3rem;
+  }
+
+  .column img.imagen5 {
+    width: 7%; 
+    height: auto; 
+    padding-right: 1rem;
+  }
+
+  .column img.imagen6 {
+    width: 5%; 
+    height: auto; 
+    padding-right: 1rem;
+    margin-left: -6rem;
+  }
+
+  .column p:first-child {
+    margin-bottom: 10px; 
+  }
+
+  .column.cuadro2{
+    margin-left: -2rem;
+  }
+
+  /* Estilos de la página interna a partir del botón Localidades */
+
+/*-----------------------------------------------------*/
+/*         Contenido imagen de fondo y superpuesta    */
+/*----------------------------------------------------*/
+  .imagen-fondo {
+    background-image: url('../images/image 3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .imagen-superpuesta {
+    position: relative;
+    z-index: 2;
+    height: auto;
+  }
+  
+  
+  .imagen-superpuesta img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: -10rem;
+  }
+  
+  .boton-izquierdo,
+  .boton-centro,
+  .boton-derecho {
+    position: absolute;
+    top: 10px;
+    padding: 1rem 4rem;
+    color: black;
+    font-size: 2rem;
+    background-color: rgba(169, 202, 60, 0.90);
+    border: none;
+    border-radius: 50%;
+    margin: 2rem;
+    cursor: pointer;
+  }
+  
+  .boton-izquierdo {
+    left: 10px;
+  }
+  
+  .boton-centro {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .boton-derecho {
+    right: 10px;
+  }
+  
+/*---------------------------------------------*/
+/*         Contenido cards de información      */
+/*---------------------------------------------*/
+  .card.tarjeta {
+    position: relative;
+    margin: 10rem 13rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    z-index: 2;
+    width: 75%;
+    background: rgba(153, 204, 0, 0.44);
+    backdrop-filter: blur(2px);
+    border-radius: 18px;
+  }
+  
+  .card-body.tarjeta1 {
+    padding: 20px;
+  }
+  
+  .row {
+    align-items: center;
+  }
+  
+  .col-sm-8 {
+    text-align:center;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.115em;
+    color: #403F3F;
+    position: sticky;
+  }
+  
+  .col-sm-4 {
+    text-align: right;
+  }
+  
+  .btn-primary {
+    margin-top: 10px;
+    padding: 8px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .tarjeta .btn-primary {
+    background-color: rgb(63, 92, 3); 
+    color: #ffffff;
+  }
+  
+  .tarjeta .btn-primary:hover {
+    background-color:rgba(102, 153, 0, 1); 
+    color: #ffffff;
+  }
+
+  .text3 {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 29px;
+    letter-spacing: 0.115em;
+    color: #403F3F;
+    position: sticky;
+  }
+
+  .toggle-checkbox {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .hidden-card {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    transition: height 0.3s ease;
+    width: -150%;
+
+  }
+  
+  .hidden-card.open {
+    height: auto;
+  }
+  
+ .hidden-content {
+  padding: 20px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+  .toggle-checkbox:checked ~ .hidden-card {
+    height: 100%;
+  }
+  
+  .scrollable-button {
+    overflow: auto;
+  }
+  
+
+
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+ 
+  
+  
+ 
+  
+
+
+  
+
+  
+  
+  
+
+
+
+  
+
